@@ -46,11 +46,15 @@ Urban areas suffer from waste mismanagement, air pollution, and river contaminat
 
 ---
 
+Images or logos were compressed and i had uploaded a zip file "images.zip" extract them in the project folder (keep the images folder with the remaining files)
+
 ## 📁 Project Structure
 
 EcoGuardian/
 │
 ├── index.html # Homepage
+├── images #extract the images folder here
+│ ├── .... all the images
 ├── login.html # Login Page
 ├── signup.html # Registration Page
 ├── aqi.html # AQI Visualizer
@@ -65,8 +69,7 @@ EcoGuardian/
 ├── connect.php # DB Connection
 ├── register.php # Registration Logic
 ├── login.php # Login Logic
-├── submit_complaint.php # Store Complaint
-│
-└── assets/ # Images, Icons, Animations
+└──submit_complaint.php # Store Complaint
+
 
 
