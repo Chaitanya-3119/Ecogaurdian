@@ -236,6 +236,19 @@
         font-size: 14px;
     }
 }
+
+/* Mobile-specific layout change for event cards */
+@media (max-width: 768px) {
+    .event {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .event .button {
+        align-self: stretch;
+        margin-top: 10px;
+    }
+}
 </style>
 </head>
 <body>
