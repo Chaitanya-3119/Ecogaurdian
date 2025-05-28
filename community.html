@@ -249,6 +249,25 @@
         margin-top: 10px;
     }
 }
+
+@media (max-width: 768px) {
+    .event {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .event .button {
+        width: 100%;
+        margin-top: 10px;
+        align-self: stretch;
+    }
+
+    .event p, .event h3 {
+        font-size: 14px;
+    }
+}
 </style>
 </head>
 <body>
