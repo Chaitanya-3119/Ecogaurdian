@@ -41,7 +41,67 @@
         .button:hover {
             background-color: #4cae4c;
         }
-    </style>
+    
+@media (max-width: 768px) {
+    .rewards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .reward-card {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .reward-icon {
+        max-width: 60px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .eco-points h2, .eco-points p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .rewards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reward-card {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .reward-icon {
+        max-width: 60px;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    header h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .eco-points h2, .eco-points p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+</style>
 </head>
 <body>
     <header>
